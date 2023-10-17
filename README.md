@@ -50,3 +50,46 @@ server/reopsitory server pada local repositry (working directory)
 
 - git pull, perintah untuk mengambil/mendownload perubahan terbaru dari
 server repository ke local repository
+
+# Membuat reposiory Local
+
+- Buka direktory aktif, misal: d:\labs_pemrograman1 (buka
+menggunakan Windows Explorer)
+
+- klik kanan pada direktory aktif tersebut, dan pilih menu Git Bash,
+sehingga muncul git bash commad
+
+- Buat direktory project praktikum pertama dengan nama latihan1
+
+## $ mkdir latihan1
+## $ cd latihan1
+
+- Sehingga terbentuk satu direktori baru dibawahnya, selanjutnya
+masuk kedalam direktori tersebut dengan perintah cd (change
+directory)
+
+- direktory aktif menjadi: d:\labs_pemrograman1\latihan1
+
+## $ git init
+
+- Jalankan perintah git init, untuk membuat repository local.
+
+- Repository baru berhasil di inisialisasi, dengan terbentuknya satu
+direktori hidden dengan nama .git
+
+- Pada direktori tersebut, semua perubahan pada working directory
+akan disimpan.
+
+# Menambahkan File Baru Pada Repository
+
+- Untuk membuat file dapat menggunakan text editor, lalu menyimpan
+filenya pada direktori aktif (repository)
+
+- disini kita akan coba buat satu file bernama README.md (text file)
+
+## $ echo “# Latihan 1” >> README.md
+
+- File README.md berhasil dibuat.
+
+### Ini adalah tampilannya
+![Gambar 3](screenshot/ss3.png)
