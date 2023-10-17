@@ -26,9 +26,9 @@ Begitu juga kalau menggunakan 32bit.
 
 - Config Global Repository
 
-## $ git config --global user.name “nama_user”
+### $ git config --global user.name “nama_user”
 
-## $ git config --global user.email “nama_user”
+### $ git config --global user.email “nama_user”
 
 # Perintah Dasar Git
 - git init, perintah untuk membuat repository local
@@ -59,8 +59,8 @@ sehingga muncul git bash commad
 
 - Buat direktory project praktikum pertama dengan nama latihan1
 
-## $ mkdir latihan1
-## $ cd latihan1
+### $ mkdir latihan1
+### $ cd latihan1
 
 - Sehingga terbentuk satu direktori baru dibawahnya, selanjutnya
 masuk kedalam direktori tersebut dengan perintah cd (change
@@ -68,7 +68,7 @@ directory)
 
 - direktory aktif menjadi: d:\labs_pemrograman1\latihan1
 
-## $ git init
+### $ git init
 
 - Jalankan perintah git init, untuk membuat repository local.
 
@@ -84,7 +84,7 @@ filenya pada direktori aktif (repository)
 
 - disini kita akan coba buat satu file bernama README.md (text file)
 
-## $ echo “# Latihan 1” >> README.md
+### $ echo “# Latihan 1” >> README.md
 
 - File README.md berhasil dibuat.
 
@@ -101,6 +101,7 @@ perintah git add.
 - Untuk menyimpan perubahan yang ada kedalam database repository
 local, gunakan perintah git commit -m “komentar commit”
 
-## $ git commit -m “File pertama saya”
+### $ git commit -m “File pertama saya”
 
 - Perubahan berhasil disimpan.
+![Gambar 5](screenshot/ss5.png)
