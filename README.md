@@ -14,7 +14,7 @@ Begitu juga kalau menggunakan 32bit.
 
 - jika sudah terinstal di windows.untuk mencobanya, silahkan buka CMD atau PowerShell kemudian ketik perintah
 ## Git --version
- ini adalah tampilannya `<p>`
+### ini adalah tampilannya `<p>`
 ![Gambar 2](screenshot/ss2.png)
 
 # Menambahkan Global Config
