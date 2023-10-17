@@ -18,39 +18,35 @@ Begitu juga kalau menggunakan 32bit.
 ![Gambar 2](screenshot/ss2.png)
 
 # Menambahkan Global Config
-Pada saat pertama kali menggunakan git, perlu dilakukan konfigurasi
+- Pada saat pertama kali menggunakan git, perlu dilakukan konfigurasi user.name dan user.email
 
-user.name dan user.email
+- konfigurasi ini bisa dilakukan untuk global repostiry atau individual repository.
 
-konfigurasi ini bisa dilakukan untuk global repostiry atau individual repository.
+- apabila belum dilakukan konfigurasi, akan mengakibatkan terjadi kegagalan saat menjalankan perintah git commit
 
-apabila belum dilakukan konfigurasi, akan mengakibatkan terjadi kegagalan
+- Config Global Repository
 
-saat menjalankan perintah git commit
+## $ git config --global user.name “nama_user”
 
-Config Global Repository
-
-$ git config --global user.name “nama_user”
-
-$ git config --global user.email “nama_user”
+## $ git config --global user.email “nama_user”
 
 # Perintah Dasar Git
 
-git init, perintah untuk membuat repository local
+- git init, perintah untuk membuat repository local
 
-git add, perintah untuk menambahkan file baru, atau perubahan pada file
+- git add, perintah untuk menambahkan file baru, atau perubahan pada file
 pada staging sebelum proses commit.
 
-git commit, perintah untuk menyimpan perubahan kedalam database git.
+- git commit, perintah untuk menyimpan perubahan kedalam database git.
 
-git push -u origin master, perintah untuk mengirim perubahan pada
+- git push -u origin master, perintah untuk mengirim perubahan pada
 repository local menuju server repository.
 
-git clone [url], perintah untuk membuat working directory yang diambil dari
+- git clone [url], perintah untuk membuat working directory yang diambil dari
 repositry sever.
 
-git remote add origin [url], perintah untuk menambahkan remote
+- git remote add origin [url], perintah untuk menambahkan remote
 server/reopsitory server pada local repositry (working directory)
 
-git pull, perintah untuk mengambil/mendownload perubahan terbaru dari
+- git pull, perintah untuk mengambil/mendownload perubahan terbaru dari
 server repository ke local repository
