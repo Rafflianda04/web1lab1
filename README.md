@@ -31,7 +31,6 @@ Begitu juga kalau menggunakan 32bit.
 ## $ git config --global user.email “nama_user”
 
 # Perintah Dasar Git
-
 - git init, perintah untuk membuat repository local
 
 - git add, perintah untuk menambahkan file baru, atau perubahan pada file
@@ -52,7 +51,6 @@ server/reopsitory server pada local repositry (working directory)
 server repository ke local repository
 
 # Membuat reposiory Local
-
 - Buka direktory aktif, misal: d:\labs_pemrograman1 (buka
 menggunakan Windows Explorer)
 
@@ -81,7 +79,6 @@ direktori hidden dengan nama .git
 akan disimpan.
 
 # Menambahkan File Baru Pada Repository
-
 - Untuk membuat file dapat menggunakan text editor, lalu menyimpan
 filenya pada direktori aktif (repository)
 
@@ -93,3 +90,17 @@ filenya pada direktori aktif (repository)
 
 ### Ini adalah tampilannya
 ![Gambar 3](screenshot/ss3.png)
+
+- Untuk menambahkan file yang baru saja dibuat tersebut gunakan
+perintah git add.
+
+- File README.md berhasil ditambahkan.
+![gambar 4](screenshot/ss4.png)
+
+# Commit (Menyimpan Perubahan Ke Database)
+- Untuk menyimpan perubahan yang ada kedalam database repository
+local, gunakan perintah git commit -m “komentar commit”
+
+## $ git commit -m “File pertama saya”
+
+- Perubahan berhasil disimpan.
